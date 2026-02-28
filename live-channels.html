@@ -10,13 +10,13 @@
   <body style="margin:0;background:var(--bg,#1a1c1e);color:var(--text,#e8eaed)">
     <div id="app"></div>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDKPTMWNTB"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_MEASUREMENT_ID%"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-TDKPTMWNTB');
+      gtag('config', '%VITE_GA_MEASUREMENT_ID%');
     </script>
     <script type="module" src="/src/live-channels-main.ts"></script>
   </body>
